@@ -1,0 +1,18 @@
+.PrimaryButton {
+    outline: none;
+    border: none;
+    background-color: #FF004A;
+    border: 3px solid #FF004A;
+    color: #F5F5F5;
+    padding: 10px 40px;
+    /* border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; */
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.PrimaryButton:hover {
+    cursor: pointer;
+    color: #FF004A;
+    background: rgba(0,0,0,0);
+}

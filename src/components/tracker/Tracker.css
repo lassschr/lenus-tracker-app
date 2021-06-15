@@ -1,0 +1,25 @@
+.Tracker {
+    height: auto;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Tracker-add-measurement {
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    z-index: 3;
+}
+
+.status {
+    color: #FF004A;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+}

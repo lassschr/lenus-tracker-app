@@ -1,0 +1,30 @@
+.Header {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header-content-wrapper {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.Header-logo {
+
+}
+
+.Header-title {
+    color: #FF004A;
+    font-size: 18px;
+    position: absolute;
+    bottom: -40px;
+    right: -25px;
+}

@@ -1,0 +1,110 @@
+.Modal-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Modal-display {
+    display: flex;
+}
+
+.Modal-display-none {
+    display: none;
+}
+
+.Modal {
+    position: relative;
+    height: auto;
+    max-height: 90%;
+    width: auto;
+    max-width: calc(75%);
+    padding: 5% 7.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #141414;
+    box-shadow: 5px 5px 45px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 5px 45px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 45px 0px rgba(0,0,0,0.75);
+    border-top-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    color: white;
+}
+
+.Modal form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.Modal-form-element {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.Modal-form-element label {
+    margin-bottom: 5px;
+    color: #FF004A;
+}
+
+.Modal-close {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background: none;
+    border: none;
+}
+
+.Modal-close:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.Modal-form-element input, .Modal-form-element select, .Modal-form-datepicker input {
+    background-color: #312E2E;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.Modal-form-element input {
+    width: calc(100% - 20px);
+}
+
+.Modal-form-element select {
+    width: 100%;
+}
+
+.Modal-form-datepicker {
+    width: 100%;
+}
+
+.Modal-form-element fieldset {
+    border: none;
+}
+
+.Modal-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.Modal-header h2 {
+    margin-left: 15px;
+}

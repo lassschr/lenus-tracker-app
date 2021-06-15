@@ -1,0 +1,16 @@
+.SecondaryButton {
+    outline: none;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    padding: 10px 40px;
+    color: white;
+    /* border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; */
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.SecondaryButton:hover {
+    cursor: pointer;
+    color: #FF004A;
+}
